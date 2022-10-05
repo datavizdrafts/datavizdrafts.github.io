@@ -35,17 +35,17 @@ profile: true
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <link rel="stylesheet" href="css/tabulator.css">
 
-
-
 <button class="button" style="border-radius: 4px; font-size: 1rem;" onclick="plotMap('n_vivi', false)">Vivi Motta</button>
 <button class="button" style="border-radius: 4px; font-size: 1rem;" onclick="plotMap('n_sofia', false)">Sofia Manzano</button>
 <button class="button" style="border-radius: 4px; font-size: 1rem;" onclick="plotMap('n_vanessa', false)">Vanessa Cristina</button>
 <button class="button" style="border-radius: 4px; font-size: 1rem;" onclick="plotMap('n_thiago', false)">Thiago Ferraiol</button>
 <button class="button" style="border-radius: 4px; font-size: 1rem;" onclick="plotMap('n_deputados', false)">Deputados</button>
 <div style="padding-bottom: 1rem;"></div>
+
 <div id="paranamap" style="z-index: -1000"></div>
 <script type="text/javascript" src="js/simple_map.js"> </script>
 <div style="padding-bottom: 1rem;"></div>
+
 <div id="example-table"></div>
 <script type="text/javascript" src="js/table.js"></script>
 
