@@ -116,7 +116,7 @@ function plotMap(variable, first) {
 			               .style("opacity", 0); // don't care about position!;                       
 		};	
 		if (first) {
-			scaleMap = d3.scaleSequential(d3.interpolateReds)
+			scaleMap = d3.scaleSequential(d3.interpolateYlOrRd)
 	  				     .domain([0, d3.max(data.features, function(d) { return d.properties.n_log_vivi })])
 			mapMap = gMap.selectAll("path")
 							.data(data.features)
@@ -145,7 +145,7 @@ function plotMap(variable, first) {
 		        .attr("font-size", "15px")
 		} else {
 		    if (variable == "n_vivi") {
-				scaleMap = d3.scaleSequential(d3.interpolateReds)
+				scaleMap = d3.scaleSequential(d3.interpolateYlOrRd)
 		  				     .domain([0, d3.max(data.features, function(d) { return d.properties.n_log_vivi })])	    	
 				mapMap = gMap.selectAll("path")
 							  .data(data.features)
@@ -245,7 +245,7 @@ function plotMap(variable, first) {
 			        .attr("font-size", "15px")
 			    
 		    } else if (variable == "n_thiago") {
-				scaleMap = d3.scaleSequential(d3.interpolateGreys)
+				scaleMap = d3.scaleSequential(d3.interpolateYlGnBu)
 		  				     .domain([0, d3.max(data.features, function(d) { return d.properties.n_log_thiago })])
 				mapMap = gMap.selectAll("path")
 								.data(data.features)

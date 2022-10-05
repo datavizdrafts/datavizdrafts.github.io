@@ -30,8 +30,10 @@ profile: true
 ---
 
 <script type="text/javascript" src="https://d3js.org/d3.v6.min.js"></script>
-<script type="text/javascript" src="js/formatter.js"> </script>
+<script type="text/javascript" src="js/formatter.js"></script>
+<script type="text/javascript" src="js/tabulator.js"></script>
 <link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" href="css/tabulator.css">
 
 
 
@@ -43,4 +45,7 @@ profile: true
 <div style="padding-bottom: .75rem;"></div>
 <div id="paranamap" style="z-index: -1000"></div>
 <script type="text/javascript" src="js/simple_map.js"> </script>
+
+<div id="example-table"></div>
+<script type="text/javascript" src="js/table.js"></script>
 
