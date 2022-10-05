@@ -179,7 +179,7 @@ function plotMap(variable, first) {
 			        .attr("font-size", "15px")
 
 		    } else if (variable == "n_sofia") {
-				scaleMap = d3.scaleSequential(d3.interpolateRdPu)
+				scaleMap = d3.scaleSequential(d3.interpolateBlues)
 		  				     .domain([0, d3.max(data.features, function(d) { return d.properties.n_log_sofia })])
 				mapMap = gMap.selectAll("path")
 								.data(data.features)
@@ -212,7 +212,7 @@ function plotMap(variable, first) {
 			        .attr("font-size", "15px")
 			    
 		    } else if (variable == "n_vanessa") {
-				scaleMap = d3.scaleSequential(d3.interpolateYlGn)
+				scaleMap = d3.scaleSequential(d3.interpolateGreens)
 		  				     .domain([0, d3.max(data.features, function(d) { return d.properties.n_log_vanessa })])
 				mapMap = gMap.selectAll("path")
 								.data(data.features)
@@ -278,7 +278,7 @@ function plotMap(variable, first) {
 			        .attr("font-size", "15px")
 			    
 		    } else {
-				scaleMap = d3.scaleSequential(d3.interpolateBuPu)
+				scaleMap = d3.scaleSequential(d3.interpolatePurples)
 		  				     .domain([0, d3.max(data.features, function(d) { return d.properties.n_log_deputados })])
 				mapMap = gMap.selectAll("path")
 								.data(data.features)
@@ -319,7 +319,7 @@ plotMap("n_vivi", true)
 
 gMap.append("text")
     .text("Fonte: Tribunal Superior Eleitoral (TSE)")
-    .attr("y", heightMap-5)
+    .attr("y", heightMap-3)
     .attr("x", 0)
     .attr("text-anchor", "start")
     .attr("fill", "black")
