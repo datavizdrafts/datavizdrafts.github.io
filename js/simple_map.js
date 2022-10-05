@@ -319,7 +319,7 @@ plotMap("n_vivi", true)
 
 gMap.append("text")
     .text("Fonte: Tribunal Superior Eleitoral (TSE)")
-    .attr("y", heightMap-12)
+    .attr("y", heightMap-5)
     .attr("x", 0)
     .attr("text-anchor", "start")
     .attr("fill", "black")
