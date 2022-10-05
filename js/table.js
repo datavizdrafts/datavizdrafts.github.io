@@ -398,7 +398,8 @@ Vere,8,2,1,1,2
 Virmond,2,0,0,0,0
 Vitorino,8,2,4,0,4
 Wenceslau Braz,16,3,5,4,9
-Xambre,5,1,0,0,0`
+Xambre,5,1,0,0,0
+Total,13577,2744,2672,2429,5101`
 
 //initialize table
 var table = new Tabulator("#example-table", {
