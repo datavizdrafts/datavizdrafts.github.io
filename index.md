@@ -45,8 +45,8 @@ profile: true
 <div id="paranamap" style="z-index: -1000"></div>
 <script type="text/javascript" src="js/simple_map.js"> </script>
 
-<div style="padding-top: 1rem;"></div>
+<div style="padding-top: 2rem;"></div>
 
 <div id="example-table"></div>
 <script type="text/javascript" src="js/table.js"></script>
-
+	
